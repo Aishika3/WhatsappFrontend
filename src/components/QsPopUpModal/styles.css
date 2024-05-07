@@ -1,0 +1,60 @@
+.backdrop {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.popup {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; /* space the items evenly */
+    height: 30rem; /* increase the height */
+    width: 40rem; /* increase the width */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.25);
+    background-image: url('https://drive.google.com/uc?id=1uuBrMvnPyWKur9zqw1H39PveNySY5COx');
+    box-shadow: 0 8px 32px 0 #01CEA5;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #01CEA5;
+    padding: 2rem; /* Add some padding around the elements */
+}
+
+.input, .file-input {
+    width: 80%;
+    height: 50px;
+    border: 1px solid #01CEA5;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.input:focus, .file-input:focus {
+    outline: 2px solid #01CEA5;
+}
+
+.cancel {
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #01CEA5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.label {
+    font-weight: bold;
+}

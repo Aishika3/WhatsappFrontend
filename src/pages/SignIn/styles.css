@@ -1,0 +1,177 @@
+.main{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ width: 40%;
+ padding-left: 10px;
+ padding-right: 10px;
+ z-index: 1;
+ background: #fff;
+}
+
+/* .main::before {
+  content: "";
+  position: absolute;
+  top: -10px; 
+  right: -10px; 
+  bottom: -10px; 
+  left: -10px; 
+  background-image: url("https://c8.alamy.com/comp/T5EPBN/black-random-semicircles-on-red-background-abstract-geometric-shapes-pattern-in-retro-style-for-fabric-print-textile-decor-T5EPBN.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+} */
+
+.phone-input {
+  width: 350px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #871cca;
+  border-radius: 5px;
+}
+
+.phone-input:focus {
+  outline: 2px solid #871cca;
+}
+
+.phone-input-box {
+  width: 250px;
+  border: 1px solid #871cca;
+  height: 50px;
+ border-radius: 5px;
+}
+
+.phone-input-country {
+  width: 50px;
+}
+
+h1 {
+    color: #871cca;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 400;
+    font-size: 40px;
+}
+h1::before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px; 
+  }
+  
+  .info{
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 300;
+    font-size: 15px;
+    color: #69787c;
+  }
+  .text{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:15px;
+    color: #e1d4d4;
+  }
+
+  
+  .f-icons .icons{
+    gap: 2rem;
+    display:inline-block;
+  }
+  .f-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding:10px;
+  }
+  
+  .f-icons a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    text-decoration: none;
+  }
+  
+  .f-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .verify-button {
+    width: 100px;
+    height: 40px; 
+    background-color: #871cca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: not-allowed;
+  }
+  
+  .verify-button.clickable {
+    cursor: pointer;
+  }
+  
+  .verify-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+.otp-input {
+  width: 80px;
+  padding:8px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  margin: 5 5px;
+  border: 1px solid #871cca;
+  border-radius: 4px;
+}
+
+.otp-input:focus {
+  outline: 2px solid #871cca;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .info {
+    font-size: 12px;
+  }
+}
